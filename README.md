@@ -1,0 +1,1 @@
+# Miniproyecto02-Administracion-de-Entradas-Grupo_7
