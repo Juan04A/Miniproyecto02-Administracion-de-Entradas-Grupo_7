@@ -17,12 +17,6 @@ Al terminar los cálculos, el programa usa un salto condicional para decidir qu�
 
 ---
 
-### Referencias utilizadas
-
-1. UNSW Sydney. (s.f.). *mipsy web* [Simulador MIPS]. Recuperado el 19 de noviembre de 2026 de https://cgi.cse.unsw.edu.au/~cs1521/mipsy/
-
----
-
 ### Objetivo
 
 Procesar las entradas de un evento en MIPS y guardar en memoria su estado final (404 o 0).
@@ -34,3 +28,11 @@ Procesar las entradas de un evento en MIPS y guardar en memoria su estado final 
 3. Verificar el resultado:
    - En **used registers**, `$t2` debe tener el valor **404**.
    - En la pestaña **data**, la dirección `0x10010038` (variable `estado`) debe mostrar `94 01 00 00`, que es 404 en hexadecimal.
+
+---
+
+### Referencias utilizadas
+
+1. Patterson, D. A., y Hennessy, J. L. (2014). *Computer organization and design: The hardware/software interface* (5.ª ed.). Morgan Kaufmann.
+
+2. UNSW Sydney. (s.f.). *mipsy web* [Simulador MIPS]. Recuperado el 19 de noviembre de 2026 de https://cgi.cse.unsw.edu.au/~cs1521/mipsy/
